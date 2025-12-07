@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+dist/
+*.egg-info/
+
+# Docusaurus
+node_modules/
+build/
+.docusaurus/
+yarn-error.log
+npm-debug.log
+
+# Universal
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+.vscode/
+.idea/
+*.log
+.env*

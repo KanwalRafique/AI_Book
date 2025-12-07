@@ -1,0 +1,19 @@
+// {
+//   // This file is not used in compilation. It is here just for a nice editor experience.
+//   "extends": "@docusaurus/tsconfig",
+//   "compilerOptions": {
+//     "baseUrl": "."
+//   },
+//   "exclude": [".docusaurus", "build"]
+// }
+
+
+{
+  "extends": "@docusaurus/tsconfig",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "ignoreDeprecations": "6.0"
+  },
+  "include": ["src", "sidebars.ts", "docusaurus.config.ts"],
+  "exclude": [".docusaurus", "build"]
+}
