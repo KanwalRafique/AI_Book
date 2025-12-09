@@ -1,9 +1,12 @@
 ---
 slug: first-blog-post
-title: First Blog Post
-authors: [slorber, yangshun]
+title: '[DEMO] First Blog Post'
+authors:
+  - kanwal
 tags: [hola, docusaurus]
 ---
+
+> This is a demo post.
 
 Lorem ipsum dolor sit amet...
 

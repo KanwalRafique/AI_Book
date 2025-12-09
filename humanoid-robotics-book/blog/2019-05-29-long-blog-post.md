@@ -1,9 +1,12 @@
 ---
 slug: long-blog-post
-title: Long Blog Post
-authors: yangshun
+title: '[DEMO] Long Blog Post'
+authors:
+  - kanwal
 tags: [hello, docusaurus]
 ---
+
+> This is a demo post.
 
 This is the summary of a very long blog post,
 

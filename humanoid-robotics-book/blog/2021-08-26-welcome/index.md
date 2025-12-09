@@ -1,9 +1,12 @@
 ---
 slug: welcome
-title: Welcome
-authors: [slorber, yangshun]
+title: '[DEMO] Welcome'
+authors:
+  - kanwal
 tags: [facebook, hello, docusaurus]
 ---
+
+> This is a demo post.
 
 [Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).
 

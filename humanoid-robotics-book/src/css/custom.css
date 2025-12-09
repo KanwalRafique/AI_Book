@@ -6,25 +6,101 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #84d8a1; /* Muted Mint Green */
+  --ifm-color-primary-dark: #6fbf8a;
+  --ifm-color-primary-darker: #64ac7d;
+  --ifm-color-primary-darkest: #538c66;
+  --ifm-color-primary-light: #99e0b2;
+  --ifm-color-primary-lighter: #aee8c3;
+  --ifm-color-primary-lightest: #c3efd3;
+
+  --ifm-color-secondary: #f8d488; /* Soft Gold/Ochre */
+
+  --ifm-background-color: #0f172a; /* Deep Slate Blue */
+  --ifm-card-background-color: #1e293b; /* Slightly Lighter Blue */
+  --ifm-code-background: #020617; /* Near-Black Blue */
+
+  --ifm-font-color-base: #e2e8f0; /* Light Blue/Gray */
+  --ifm-font-color-secondary: #94a3b8; /* Slate Gray */
+
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  /* Custom variables for transitions */
+  --ifm-transition-duration: 0.3s;
+  --ifm-transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+
+  /* Set consistent vertical spacing */
+  --ifm-spacing-vertical: 1.5rem;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+#tsparticles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.hero {
+  position: relative; /* Essential for containing the absolutely positioned #tsparticles */
+  padding-top: var(--ifm-spacing-vertical);
+  padding-bottom: var(--ifm-spacing-vertical);
+}
+
+.hero--primary {
+  padding-top: var(--ifm-spacing-vertical);
+  padding-bottom: var(--ifm-spacing-vertical);
+}
+
+html, body {
+  background-color: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+}
+
+.navbar, .footer, .menu {
+  background-color: #1e293b !important;
+}
+
+.card {
+  background-color: var(--ifm-card-background-color);
+  border: 1px solid transparent; /* Prepare for border transition */
+  transition: transform var(--ifm-transition-duration) var(--ifm-transition-timing-function), 
+              box-shadow var(--ifm-transition-duration) var(--ifm-transition-timing-function),
+              border-color var(--ifm-transition-duration) var(--ifm-transition-timing-function);
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border-color: var(--ifm-color-primary);
+}
+
+.button, .button:hover {
+  transition: background-color var(--ifm-transition-duration) var(--ifm-transition-timing-function), 
+              border-color var(--ifm-transition-duration) var(--ifm-transition-timing-function), 
+              color var(--ifm-transition-duration) var(--ifm-transition-timing-function),
+              transform var(--ifm-transition-duration) var(--ifm-transition-timing-function);
+}
+
+.button--primary {
+  background-color: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+  color: #0f172a; /* Match dark background for high contrast */
+}
+
+.button--primary:hover {
+  background-color: var(--ifm-color-primary-dark);
+  border-color: var(--ifm-color-primary-dark);
+  transform: scale(1.01);
+}
+
+.menu__link--active, .tabs__item--active {
+  color: var(--ifm-color-secondary);
+  border-color: var(--ifm-color-secondary);
+}
+
+code[class*="language-"], pre[class*="language-"] {
+  background-color: var(--ifm-code-background);
 }

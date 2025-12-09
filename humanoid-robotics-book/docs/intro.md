@@ -1,47 +1,81 @@
 ---
-sidebar_position: 1
+title: Welcome to Physical AI & Humanoid Robotics
 ---
 
-# Tutorial Intro
+## 🚀 About This Textbook
 
-Let's discover **Docusaurus in less than 5 minutes**.
+This open-source textbook is your launchpad into the world of Physical AI—where intelligent software meets the physical world. We'll guide you through building the "brain" of a humanoid robot, from basic ROS 2 controls to advanced voice-activated commands. This is a hands-on, project-based journey designed for builders, creators, and pioneers.
 
-## Getting Started
+## 🎯 What You'll Learn
 
-Get started by **creating a new site**.
+*   **ROS 2:** Master the core framework for robotics development.
+*   **Digital Twins:** Simulate robots in Gazebo and Unity.
+*   **NVIDIA Isaac:** Leverage powerful tools for AI perception and navigation.
+*   **Vision-Language-Action (VLA):** Build systems that understand and execute voice commands.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## 🤖 The Future of Work
 
-### What you'll need
+Humanoid robots are poised to revolutionize industries by taking on dangerous, dull, and dirty jobs. By learning these skills, you're positioning yourself at the forefront of the next technological wave. This isn't just about coding; it's about shaping the future of how we work and live.
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+**WHY PHYSICAL AI MATTERS:** Because the future isn’t just on a screen. It’s out in the world, interacting with us.
 
-## Generate a new site
+## Course Structure & Roadmap
 
-Generate a new Docusaurus site using the **classic template**.
+A 13-week journey from foundational concepts to a full-fledged capstone project.
 
-The classic template will automatically be added to your project after you run the command:
+*   **Weeks 1-5:** Module 1: The Robotic Nervous System (ROS 2)
+*   **Weeks 6-7:** Module 2: The Digital Twin (Gazebo & Unity)
+*   **Weeks 8-10:** Module 3: The AI-Robot Brain (NVIDIA Isaac)
+*   **Weeks 11-13:** Module 4: Vision-Language-Action & Capstone Project
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+### Module 1: ROS 2
+*   **Weeks:** 1-5
+*   **Description:** Build the foundational communication and control system for a humanoid robot using the Robot Operating System (ROS 2).
+*   **Link:** [Start Module →](/docs/Module-1%20The%20Robotic%20Nervous%20System%20ROS%202/ros2-humanoids/01-ros2-architecture)
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+### Module 2: The Digital Twin
+*   **Weeks:** 6-7
+*   **Description:** Create and control a simulated robot in high-fidelity environments like Gazebo and Unity for safe testing and development.
+*   **Link:** [Start Module →](/docs/Module-2%20The%20Digital%20Twin/digital-twin-simulation/01-gazebo-physics)
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+### Module 3: The AI-Robot Brain
+*   **Weeks:** 8-10
+*   **Description:** Integrate advanced AI perception, navigation, and manipulation using the powerful NVIDIA Isaac robotics platform.
+*   **Link:** [Start Module →](/docs/Module-3%20The%20AI-Robot%20Brain/nvidia-isaac-book/01-isaac-sim)
 
-## Start your site
+### Module 4: Vision-Language-Action (VLA)
+*   **Weeks:** 11-13
+*   **Description:** Implement cutting-edge AI models that connect voice commands to robotic actions, culminating in a capstone project.
+*   **Link:** [Start Module →](/docs/Module-4%20Vision-Language-Action/vla-voice-control/01-voice-to-action)
 
-Run the development server:
+## 🎓 Learning Approach
 
-```bash
-cd my-website
-npm run start
-```
+Each week, you get:
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+*   **📖 Theory:** Bite-sized explanations of core concepts.
+*   **💻 Runnable Code:** Practical, hands-on examples you can run instantly.
+*   **🤖 Project-Based Learning:** Apply what you learn to a cumulative humanoid robot project.
+*   **🧠 Quizzes:** Test your knowledge and reinforce key ideas.
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+## Prerequisites
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+:::note No Robotics Experience Required!
+
+This textbook is designed for beginners. All you need is:
+
+*   Basic Python programming skills.
+*   Familiarity with the command line.
+*   A passion for building the future!
+:::
+
+## 💡 Interactive Learning Features
+
+*   **Embedded Terminals:** Run code directly in your browser.
+*   **Interactive Quizzes:** Get instant feedback on your understanding.
+*   **Community Support:** Join our Discord to ask questions and collaborate.
+
+## 📬 Stay Connected
+
+*   [Join our Discord Community](https://discord.gg/your-discord-link)
+*   [Contribute on GitHub](https://github.com/your-repo)
+*   [Follow us on Twitter](https://twitter.com/your-twitter)
