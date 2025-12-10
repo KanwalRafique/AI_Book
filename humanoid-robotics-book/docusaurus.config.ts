@@ -95,6 +95,16 @@ const config: Config = {
           label: 'GitHub',
           position: 'right',
         },
+        {
+          type: 'html',
+          position: 'right',
+          value: '<a class="navbar__item button button--primary" href="/signup">Sign Up (Bonus)</a>',
+        },
+        {
+          type: 'html',
+          position: 'right',
+          value: '<a class="navbar__item button button--secondary" href="/signin">Sign In</a>',
+        },
       ],
     },
     footer: {

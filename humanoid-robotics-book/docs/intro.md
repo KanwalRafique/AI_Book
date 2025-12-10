@@ -31,22 +31,22 @@ A 13-week journey from foundational concepts to a full-fledged capstone project.
 ### Module 1: ROS 2
 *   **Weeks:** 1-5
 *   **Description:** Build the foundational communication and control system for a humanoid robot using the Robot Operating System (ROS 2).
-*   **Link:** [Start Module →](/docs/Module-1%20The%20Robotic%20Nervous%20System%20ROS%202/ros2-humanoids/01-ros2-architecture)
+*   **Link:** [Start Module →](/docs/Module-1%20The%20Robotic%20Nervous%20System%20ROS%202/ros2-humanoids/ros2-architecture)
 
 ### Module 2: The Digital Twin
 *   **Weeks:** 6-7
 *   **Description:** Create and control a simulated robot in high-fidelity environments like Gazebo and Unity for safe testing and development.
-*   **Link:** [Start Module →](/docs/Module-2%20The%20Digital%20Twin/digital-twin-simulation/01-gazebo-physics)
+*   **Link:** [Start Module →](/docs/Module-2%20The%20Digital%20Twin/digital-twin-simulation/gazebo-physics)
 
 ### Module 3: The AI-Robot Brain
 *   **Weeks:** 8-10
 *   **Description:** Integrate advanced AI perception, navigation, and manipulation using the powerful NVIDIA Isaac robotics platform.
-*   **Link:** [Start Module →](/docs/Module-3%20The%20AI-Robot%20Brain/nvidia-isaac-book/01-isaac-sim)
+*   **Link:** [Start Module →](/docs/Module-3%20The%20AI-Robot%20Brain/nvidia-isaac-book/isaac-sim)
 
 ### Module 4: Vision-Language-Action (VLA)
 *   **Weeks:** 11-13
 *   **Description:** Implement cutting-edge AI models that connect voice commands to robotic actions, culminating in a capstone project.
-*   **Link:** [Start Module →](/docs/Module-4%20Vision-Language-Action/vla-voice-control/01-voice-to-action)
+*   **Link:** [Start Module →](/docs/Module-4%20Vision-Language-Action/vla-voice-control/voice-to-action)
 
 ## 🎓 Learning Approach
 
